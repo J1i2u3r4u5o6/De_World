@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="組員照片 placeholder">
+  <rect width="400" height="400" fill="#12182a"/>
+  <circle cx="200" cy="145" r="70" fill="#60efff" opacity="0.76"/>
+  <path d="M86 350 C110 240 290 240 314 350 Z" fill="#f7cf6a" opacity="0.76"/>
+  <text x="200" y="382" text-anchor="middle" fill="#f5f8ff" font-family="Arial, sans-serif" font-size="28" font-weight="700">MEMBER</text>
+</svg>
