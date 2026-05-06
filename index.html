@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De World 角色介紹網站</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <!-- 背景圖片替換位置：
+        將 assets/images/hero-bg.svg 換成你的圖片檔案，
+        或到 style.css 搜尋 .hero 修改 background-image。
+      -->
+      <nav class="top-nav" aria-label="主選單">
+        <a href="#home" class="brand">De World</a>
+        <div class="nav-links">
+          <a href="#characters">人物介紹</a>
+          <a href="#story">故事背景</a>
+          <a href="#team">組員介紹</a>
+          <a href="#share">QR Code</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">Fantasy Character Archive</p>
+        <h1>歡迎來到 De World</h1>
+        <div class="hero-actions" aria-label="快速前往區塊">
+          <button type="button" data-scroll-target="#characters">人物介紹</button>
+          <button type="button" data-scroll-target="#story">故事背景</button>
+          <button type="button" data-scroll-target="#team">組員介紹</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section characters-section" id="characters">
+        <div class="section-heading">
+          <p class="eyebrow">Characters</p>
+          <h2>人物介紹</h2>
+        </div>
+
+        <div class="character-grid">
+          <article class="character-card">
+            <!-- 角色圖片替換位置：把 src 改成你的角色圖片路徑，例如 assets/images/character-1.png -->
+            <img src="assets/images/character-placeholder-1.jpg" alt="艾達角色圖片" />
+            <div class="card-body">
+              <h3>艾達・勒夫蕾斯</h3>
+              <p>以智慧與核心慈悲為靈感打造的未來科技角色，融合柔和色彩、輕盈服裝與神秘紋樣，展現超越現實的氣質。</p>
+              <p class="ability">特色能力：數位神祇、優雅感知</p>
+            </div>
+          </article>
+
+          <article class="character-card">
+            <!-- 角色圖片替換位置：把 src 改成你的角色圖片路徑，例如 assets/images/character-2.png -->
+            <img src="assets/images/character-placeholder-2.jpg" alt="比特角色圖片" />
+            <div class="card-body">
+              <h3>比特・沃爾</h3>
+              <p>以貨幣與秩序為主題的角色，黑白金配色象徵價值、權力與規則，呈現理性冷靜的掌權者形象。</p>
+              <p class="ability">特色能力：數位黃金、金融掌控</p>
+            </div>
+          </article>
+
+          <article class="character-card">
+            <!-- 角色圖片替換位置：把 src 改成你的角色圖片路徑，例如 assets/images/character-3.png -->
+            <img src="assets/images/character-placeholder-3.jpg" alt="龍蝦角色圖片" />
+            <div class="card-body">
+              <h3>逝影龍蝦</h3>
+              <p>由斑驳龍蝦與 AGI Agent 系統 OpenClaw 融合而成的敵對角色，兼具生物威脅與人工智慧的高度行動力。</p>
+              <p class="ability">特色能力：多節機械足、AI 精密操控</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section story-section" id="story">
+        <div class="story-panel">
+          <div class="section-heading align-left">
+            <p class="eyebrow">World Story</p>
+            <h2>故事背景</h2>
+          </div>
+          <p>
+            故事以台灣街頭為背景，女主角 Ada 在寬虹招牌的街道上獨行。突然，
+            由 AI Agent 扭曲而成的巨大紅龍蝦從黑盒中爬出，瘋狂吞噬周圍所有
+            AI 生成的假圖與詐騙內容，象徵 AI 失控後吞噬自我意識的危機。
+            Ada 在絕望中撿起龍蝦爪杖，代表「Code is Law」精神的 Bit 也登場。
+            兩人結合鏈上 DAO 治理與碧綠色 DAO 治理能量，於虛擬與現實交錯的河流上展開最終對決。
+            高潮時，DAO 投票方塊與 Code is Law 鎖鏈組成巨蛇，一擊擊碎紅龍蝦；
+            所有 AI 生成的幻影被穩定幣海洋沖刷，人類的真實價值則透過 RWA 重生。
+            本作透過視覺敘事，探討 AI 時代的真實性危機、濫用風險與人類價值失衡，
+            並提出 Web3 與 RWA 作為平衡科技與人文的新解方。
+          </p>
+        </div>
+      </section>
+
+      <section class="section team-section" id="team">
+        <div class="section-heading">
+          <p class="eyebrow">Team</p>
+          <h2>組員介紹</h2>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card">
+            <!-- 組員照片替換位置：把 src 改成你的組員照片路徑，例如 assets/images/member-1.jpg -->
+            <img src="assets/images/member-placeholder.svg" alt="組員一照片" />
+            <h3>李冠宏</h3>
+            <p class="role">角色設定</p>
+            <p>負責設計人物個性、能力與成長故事。</p>
+          </article>
+          <article class="team-card">
+            <img src="assets/images/member-placeholder.svg" alt="組員二照片" />
+            <h3>林明儒</h3>
+            <p class="role">世界觀撰寫</p>
+            <p>負責建立 De World 的歷史、地圖與勢力。</p>
+          </article>
+          <article class="team-card">
+            <img src="assets/images/member-placeholder.svg" alt="組員三照片" />
+            <h3>劉邦昱</h3>
+            <p class="role">視覺設計</p>
+            <p>負責角色圖像、色彩風格與版面美術。</p>
+          </article>
+          <article class="team-card">
+            <img src="assets/images/member-placeholder.svg" alt="組員四照片" />
+            <h3>陳上淵</h3>
+            <p class="role">前端製作</p>
+            <p>負責網站架構、互動效果與響應式設計。</p>
+          </article>
+          <article class="team-card">
+            <img src="assets/images/member-placeholder.svg" alt="組員五照片" />
+            <h3>蔡禎祥</h3>
+            <p class="role">資料整理</p>
+            <p>負責統整圖片、文字內容與展示資料。</p>
+          </article>
+          <article class="team-card">
+            <img src="assets/images/member-placeholder.svg" alt="組員六照片" />
+            <h3>溫林祐麒</h3>
+            <p class="role">簡報與測試</p>
+            <p>負責成果展示、網站檢查與發表準備。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section share-section" id="share">
+        <div class="share-card">
+          <div>
+            <p class="eyebrow">Share</p>
+            <h2>QR Code 分享</h2>
+            <p>掃描 QR Code 進入 De World</p>
+          </div>
+          <!-- QR Code 圖片替換位置：
+            1. 把真正的 QR Code 圖片放進 assets/images/
+            2. 將下方 src 改成你的檔名，例如 assets/images/de-world-qr.png
+          -->
+          <img class="qr-image" src="assets/images/qr-placeholder.svg" alt="De World QR Code" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 De World. Built for character storytelling.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
